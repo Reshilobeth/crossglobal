@@ -1,0 +1,25 @@
+@font-face {
+    font-family:'made tommy' ;
+    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
+}
+.registration-one{
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.registration-one>h1{
+    font-size: clamp(35px, 4vw, 110px);
+    font-weight: 500;
+    color: #414141;
+}
+
+.registration-two>ul>li{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.registration-two>ul>li>h2{
+    padding: 0 2em;
+}

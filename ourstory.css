@@ -1,0 +1,139 @@
+@font-face {
+    font-family:'made tommy' ;
+    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
+}
+
+.our-story-title-container{
+    max-width: 1400px;
+    margin: 14rem auto 5em auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-story-title-container>h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: clamp(20px, 15vw, 100px);
+    color: #414141;
+}
+.our-story-title-container>p{
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(12px, 5vw,25px);
+    color: #414141;
+}
+
+.our-story-image-container{
+    width: 100%;
+    padding: 0 1em;
+}
+
+.our-story-image-container>img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* <!--------------OUR STORY TEXT CONTENT STARTS--------------> */
+
+.our-story-text{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.our-story-text-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 2em;
+}
+
+.our-story-text-container>h2{
+    width: 50%;
+    font-weight: 500;
+    font-size: clamp(20px, 3vw, 70px);
+    color: #FDCB4A;
+}
+.our-story-text-container>div{
+    width: 50%;
+    font-weight: 300;
+    font-size: clamp(18px, 1.3vw, 70px);
+    color: #414141;
+}
+
+.vision-text-container>h2{
+    font-weight: 500;
+    font-size: clamp(40px, 4vw, 70px);
+}
+
+.vision-text-container>p{
+    font-weight: 300;
+    font-size: clamp(10px, 5vw,20px);
+    color: #414141;
+}
+
+.kamal-text-container>h1{
+    font-weight: 500;
+    font-size: clamp(10px, 50vw, 90px);
+    color: #FDCB4A;
+    font-family: 'Times New Roman';
+    line-height: 30px;
+}
+.kamal-text-container>h2{
+    font-weight: 500;
+    font-size: clamp(40px, 4vw, 80px);
+    line-height: 60px;
+}
+
+.kamal-text-container>p{
+    font-weight:400;
+    font-size: clamp(12px, 1vw,30px);
+    color: #414141;
+    opacity: .3;
+}
+
+.model-container{
+    display: flex;
+    gap: 60px;
+}
+
+.model-container>span>p{
+    padding: 1em 0;
+    font-size: clamp(15px, 1.5vw,40px);
+}
+
+.model-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 20px 30px hsla(0, 0%, 59%, 0.112);
+}
+
+
+@media (max-width:800px) {
+
+    .our-story-text-container>h2{
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+
+    .our-story-text-container{
+        flex-direction: column;
+        justify-content: none;
+        padding: 2em 2em;
+    }
+
+    .our-story-text-container>div{
+        width: 100%;
+    }
+    
+    .kamal-text-container>h2{
+        line-height: 40px;
+    }
+
+}
+/* <!--------------OUR STORY TEXT CONTENT ENDS--------------> */

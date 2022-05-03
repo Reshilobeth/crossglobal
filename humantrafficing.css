@@ -1,0 +1,299 @@
+
+/* ---------------HUMAN_TRAFFICING START---------- */
+
+
+@font-face {
+    font-family:'made tommy' ;
+    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
+}
+
+.human-trafficing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 60vh; */
+    /* padding: 0 3em; */
+    margin: 3em auto;
+    max-width: 1400px;
+}
+
+.human-trafficing-para{
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(20px, 1.6vw,60px);
+    color: #414141;
+    padding:  2em 5em;
+    /* padding-bottom: 8em; */
+}
+
+.human-trafficing-title{
+    font-weight: 500;
+    font-size: clamp(10px, 9vw, 80px);
+    color: #414141;
+}
+
+.human-trafficing-img{
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .human-trafficing-para{
+        text-align: left;
+    }
+}
+@media (max-width:800px) {
+    .human-trafficing-para{
+        padding: 2em 1.5em;
+    }
+}
+/* ---------------HUMAN_TRAFFICING END---------- */
+
+
+/* ---------------HUMAN_TRAFFICING TWO START---------- */
+
+.Human-trafficing-two{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Human-trafficing-two-text-container{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 3em;
+}
+
+.Human-trafficing-two-text-two{
+    padding: 0 2em;
+    grid-column: 2/4;
+    font-weight: 300;
+    font-size: clamp(18px, 1.3vw, 70px);
+}
+
+.Human-trafficing-two-text-two>p{
+    padding-bottom: 2em;
+    color:#414141
+}
+
+.Human-trafficing-two-text-one>p{
+    font-weight: 400;
+    font-size: clamp(19px, 1.4vw, 70px);
+    color: #414141;
+}
+
+@media (max-width:1000px) {
+    .Human-trafficing-two-text-container{
+        display:flex;
+        flex-direction: column;
+        margin: 0 2em 2em 2em;
+        /* margin-top: 3em; */
+        padding-top: 2em;
+    }
+    .Human-trafficing-two-text-two{
+        padding: 0;
+    }
+} 
+/* ---------------HUMAN_TRAFFICING TWO END----------*/
+/* ---------------BONDED LABOUR START---------- */
+
+.bonded-Labour{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.bonded-Labour-title{
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+
+.bonded-Labour-title >div>h3{
+    font-size: clamp(10px, 7vw, 80px);
+    color: #414141;
+}
+
+
+.bonded-Labour-title>h2{
+    font-size: clamp(10px, 8vw, 80px);
+    color: #FDCB4A;
+}
+
+
+.bonded-Labour-text-container{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 3em;
+}
+
+.bonded-Labour-text-two{
+    padding: 0 2em;
+    grid-column: 2/4;
+    font-weight: 300;
+    font-size: clamp(18px, 1.3vw, 70px);
+}
+
+.bonded-Labour-text-two>p{
+    padding-bottom: 2em;
+    color:#414141
+}
+
+.bonded-Labour-text-one>p{
+    font-weight: 400;
+    font-size: clamp(19px, 1.4vw, 70px);
+    color: #414141;
+}
+
+@media (max-width:500px) {
+    .bonded-Labour-title>h2{
+        font-size: clamp(10px,7vw, 80px);
+    }
+}
+
+@media (max-width:1000px) {
+    .bonded-Labour-text-container{
+        display:flex;
+        flex-direction: column;
+        margin: 0 2em 2em 2em;
+        /* margin-top: 3em; */
+    }
+    .bonded-Labour-text-two{
+        padding: 0;
+    }
+    .bonded-Labour-title{
+        margin:  2em 2em 2em 2em;
+    }
+} 
+/* ---------------BONDED LABOUR END----------*/
+
+/* ---------------SEX_TRAFFICING START---------- */
+
+.sex-trafficing{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.sex-trafficing-title{
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+
+.sex-trafficing-title >div>h3{
+    font-size: clamp(10px, 7vw, 80px);
+    color: #414141;
+}
+
+
+.sex-trafficing-title>h2{
+    font-size: clamp(10px, 8vw, 80px);
+    color: #FDCB4A;
+}
+
+
+.sex-trafficing-text-container{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 3em;
+}
+
+.sex-trafficing-text-two{
+    padding: 0 2em;
+    grid-column: 2/4;
+    font-weight: 300;
+    font-size: clamp(18px, 1.3vw, 70px);
+}
+
+.sex-trafficing-text-two>p{
+    padding-bottom: 2em;
+    color:#414141
+}
+
+.sex-trafficing-text-one>p{
+    font-weight: 400;
+    font-size: clamp(19px, 1.4vw, 70px);
+    color: #414141;
+}
+
+@media (max-width:500px) {
+    .sex-trafficing-title>h2{
+        font-size: clamp(10px,7vw, 80px);
+    }
+}
+
+@media (max-width:1000px) {
+    .sex-trafficing-text-container{
+        display:flex;
+        flex-direction: column;
+        margin: 0 2em 2em 2em;
+        /* margin-top: 3em; */
+    }
+    .sex-trafficing-text-two{
+        padding: 0;
+    }
+    .sex-trafficing-title{
+        margin:  2em 2em 2em 2em;
+    }
+} 
+/* ---------------SEX_TRAFFICING END----------*/
+/*------------------- REPORT STARTS--------------- */
+
+.join-in-the-fight{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.join-in-the-fight-container{
+    padding: 5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    text-align: center;
+}
+
+.join-in-the-fight-container>h2{
+    font-size: clamp(20px, 3.5vw, 90px);
+    font-weight: 500;
+    color: #414141;
+}
+
+.join-in-the-fight-container>a>button{
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    padding: 0.7em 2.5em;
+    border-radius: 50px;
+    background-color: #FDCB4A;
+    transition: 0.2s all ease-in;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 3em;
+}
+
+.join-in-the-fight-container>a>button:hover{
+    background-color: #414141;
+    color: #FDCB4A;
+}
+
+@media (max-width:1050px) {
+    .join-in-the-fight-container>a>button{
+        font-size: .8rem;
+    }
+    .join-in-the-fight-container{
+        padding: 2em 1em;
+        background-size: cover;
+    }
+    
+}
+
+/*------------------- REPORT  ENDS--------------- */

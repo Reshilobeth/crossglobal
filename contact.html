@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!--------------NAVBAR START -------------->
+    <header class="nav-container">
+            <nav class="navbar">
+                <div>
+                    <a href="index.html"><img class="cg-logo" src="./images/main logo-01.png"></a>
+                </div>
+                
+                <div class="nav-item">
+                    <ul class="nav-links">
+                        <li class="nav-link human"><a href="humantrafficing.html">Human trafficing</a></li>
+                        <li class="nav-link"><a href="ourWorks.html">Our Works</a> 
+                            <ul class="sub-link-container">
+                                <li class="sub-link"><a href="covid'19.html">COVID'19</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link"><a href="ourStory.html">Our Story</a>
+                            <ul class="sub-link-container">
+                                <li class="sub-link"><a href="meet-the-team.html">Meet the team</a></li>
+                                <li class="sub-link"><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-link"><a href="#">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="burger">
+                    <div class="lines1"></div>
+                    <div class="lines2"></div>
+                </div>
+                
+        </nav>
+    </header>
+<!--------------NAVBAR ENDS -------------->
+
+<!--------------FORM STARTS -------------->
+
+
+<div class="container">
+    <form onsubmit="sendEmail(); reset(); ">
+        <h3>Get in touch</h3>
+        <input type="text" name="" id="name" placeholder="Your Name" required>
+        <input type="email" name="" id="email" placeholder="email" required>
+        <input type="text" name="" id="phone" placeholder="phone no." required>
+        <textarea id="message"  rows="4" placeholder="comments"></textarea>
+        <button class="submit-btn" type="submit">Submit</button>
+    </form>
+</div>
+
+<!--------------FORM ENDS -------------->
+
+<!--------------MAP STARTS -------------->
+
+<div class="map-container">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497527.99651461706!2d80.195192!3d13.039652!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1651522681465!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!--------------MAP ENDS -------------->
+<!--------------CONTACT STARTS -------------->
+
+<div class="contact-container">
+    <div>
+        <img width="40px" src="./images/images/icons/phone-call.png" alt="">
+        <h2>95001 79125</h2>
+    </div>
+    <div>
+        <img width="40px" src="./images/images/icons/map.png" alt="">
+        <h2>Chennai, India</h2>
+    </div>
+    <div>
+        <img width="40px" src="./images/images/icons/email (1).png" alt="">
+        <h2>contact@crossglobalindia.org</h2>
+    </div>
+
+</div>
+
+<!--------------CONTACT ENDS -------------->
+
+
+<!-- -----------------FOOTER START------------------------->
+
+<section class="footer">
+    <div class="footer-container">
+            <div class="footer-first-container">
+                <ul>
+                    <h2>About Us</h2>
+
+                    <li><a href="ourStory.html">Our story</a></li>
+                    <li>Registration Details</li>
+                    <li><a href="ourWorks.html">Projects</a></li>
+                    <li><a href="meet-the-team.html">Meet the team</a></li>
+                </ul>
+                <ul>
+                    <h2>Resource Center</h2>
+
+                    <li> <a href="https://open.spotify.com/show/02gJD7JX46qN5SHVp5Jwit">Kural podcast</a></li>
+                    <li> <a href="https://crossglobalindia.org/wp-content/uploads/2021/08/Cross-Global-Annual-Report-2020.pdf"> Annual report 2020</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Y7_-3RRAJpM">Kamal’s TEDx Talk</a></li>
+                    <li><a href="covid'19.html">COVID’19</a></li>
+                    
+                </ul>
+                <ul>
+                    <h2>Contact Us</h2>
+
+                    <li>Chennai, india</li>
+                    <li>+91 95001 79125</li>
+                    <li>contact@crossglobalindia.org</li>
+                </ul>
+            </div>
+
+            <div class="footer-second-container">
+                <div>
+                    <h1>Join in the fight</h1> 
+                </div>
+            </div>
+    </div>
+
+    <div class="footer-rights-container">
+        <div class="footer-rights-left">
+            <p>Copyright © 2022 Cross Global | Powered by Cross Global</p>
+        </div>
+        <div class="footer-rights-right">
+            <p>Privacy policy</p>
+            <p>Terms and condition</p>
+            <a href="index.html"><img width="50px" src="./images/main logo-01.png" alt=""></a>
+        </div>
+    </div>
+
+</section>
+
+<!-- -----------------FOOTER END------------------------->
+
+
+
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
