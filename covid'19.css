@@ -1,7 +1,4 @@
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
+
 
 .covid-title-container{
     max-width: 1400px;
@@ -16,7 +13,7 @@
 
 .covid-title-container>h1{
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(20px, 9vw, 80px);
     color: #414141;
 }

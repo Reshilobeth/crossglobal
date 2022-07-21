@@ -1,6 +1,5 @@
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
+*{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{

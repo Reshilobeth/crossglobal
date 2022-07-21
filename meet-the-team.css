@@ -1,9 +1,6 @@
 /* <!--------------THE DIC CONTAINE STARTS --------------> */
 
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
+
 
 .the-team{
     display: flex;
@@ -16,7 +13,7 @@
 .the-team-img-title-container>h2{
     justify-content: center;
     display: flex;
-    font-weight: 400;
+    font-weight: 600;
     font-size: clamp(20px, 4vw, 60px);
     color: #414141;
     padding: 1em 1em;

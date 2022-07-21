@@ -1,7 +1,4 @@
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
+
 .registration-one{
     display: flex;
     justify-content: center;

@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@500&family=Roboto:wght@100;300;400;500;700;900&family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3956cd755c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cross Global – End Human Trafficking in Our Lifetime</title>
 </head>
 <body>
+
+    <style>
+        .carousel-item{
+            /* height: 32rem; */
+            /* color: white; */
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 50px;
+        }
+    </style>
+
 
 <!--------------NAVBAR START -------------->
     <header class="nav-container">
@@ -22,17 +45,17 @@
                         <li class="nav-link human"><a href="humantrafficing.html">Human trafficing</a></li>
                         <li class="nav-link"><a href="ourWorks.html">Our Works</a> 
                             <ul class="sub-link-container">
-                                <li class="sub-link"><a href="covid'19.html">COVID'19</a></li>
+                                <li class="sub-link"><a class="submenu" href="covid'19.html">COVID'19</a></li>
                             </ul>
                         </li>
                         <li class="nav-link"><a href="ourStory.html">Our Story</a>
                             <ul class="sub-link-container">
-                                <li class="sub-link"><a href="meet-the-team.html">Meet the team</a></li>
-                                <li class="sub-link"><a href="contact.html">Contact us</a></li>
+                                <li class="sub-link"><a class="submenu" href="meet-the-team.html">Meet the team</a></li>
+                                <li class="sub-link"><a class="submenu" href="contact.html">Contact us</a></li>
                             </ul>
                         </li>
                         
-                        <li class="nav-link"><a href="#">Donate</a></li>
+                        <!-- <li class="nav-link"><a href="#">Donate</a></li> -->
                     </ul>
                 </div>
                 
@@ -45,27 +68,66 @@
     </header>
 <!--------------NAVBAR ENDS -------------->
 
-<!--------------HERO SECTION STARTS -------------->
 
-    <main class="hero-container">
-        <div class="hero-left">
-            <div class="hero-title-container">
-                <h1 class="hero-title-one">END HUMAN</h1>
-                <h1 class="hero-title-two">TRAFFICKING</h1>
+<!--------------CARSOUL STARTS ENDS -------------->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <main class="hero-container  w-100">
+                        <div class="hero-left">
+                            <div class="hero-title-container">
+                                <h1 class="hero-title-one">END HUMAN</h1>
+                                <h1 class="hero-title-two">TRAFFICKING</h1>
+                            </div>
+                            <p class="hero-para">
+                            <b>Cross Global</b> is a registered non-profit organization that 
+                                protects the most vulnerable from <b>Human Trafficking</b>
+                            </p>
+                            <a href="ourStory.html"><button class="hero-btn">know more</button></a>
+                        </div>
+                        <div class="hero-image-container">
+                            <img class="hero-image" src="./images/images/main-img.png" alt="">
+                        </div>
+                </main>
             </div>
-            <p class="hero-para">
-               <b>Cross Global</b> is a registered non-profit organization that 
-                protects the most vulnerable from <b>Human Trafficking</b>
-            </p>
-            <a href="ourStory.html"><button class="hero-btn">know more</button></a>
-        </div>
-        <div class="hero-image-container">
-            <img class="hero-image" src="./images/images/main-img.png" alt="">
-        </div>
-    </main>
+ 
+            <div class="carousel-item second" data-bs-interval="3000">
 
-    <!--------------HERO SECTION ENDS-------------->
+                <main class="hero-container carsoul  w-100" >
+
+                        <div>
+                            <div class="carsoul-container">
+                                <h1 class="carsoul-title-one">TRAFFICKING IN PERSONS</h1>
+                                <h1 class="carsoul-title-two"> REPORT 2022</h1>
+                            </div>
+                            
+                            <a href="./pdf/TIP REPORT 2022.pdf"><button class="carsoul-btn-one carousel-btn">Tip report 2022</button></a>
+                            <a href="./pdf/INDIA - TIP REPORT 2022.pdf"><button class="carsoul-btn-two carousel-btn">india - tip report 2022</button></a>
+
+                        </div>
+
+                </main>
+            </div>
+        </div>
+
+        <button id="previous-btn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left"></i> 
+        </button>
+        <button  id="next-btn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        
+</div>
+
+
+<!--------------CARSOUL ENDS -------------->
+
+
     <!--------------SECTION-TWO STARTS-------------->
+
     <section  class="section-two">
         <div class="section-two-container">
 
@@ -315,7 +377,8 @@
 
 
 <!-- -----------------FOOTER END------------------------->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

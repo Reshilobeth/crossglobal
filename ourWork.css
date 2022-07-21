@@ -1,10 +1,6 @@
 
 /* ---------------OUR WORK START---------- */
 
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
 
 .our-work-container{
     display: flex;
@@ -27,7 +23,7 @@
 
 .our-work-title{
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(20px, 7vw, 80px);
     color: #414141;
 }

@@ -1,7 +1,4 @@
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +6,10 @@
     list-style-type: none;
     font-family: made tommy;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    font-family:'made tommy',  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 /*------------------- NAVBAR STARTS--------------- */
 .nav-container{
     border-bottom: 1px solid #41414122 ;
@@ -48,6 +44,7 @@ body{
     position: relative;
     font-weight: 300;
     color: #414141;
+    z-index: 999;
 }
 
 .nav-item>ul>li{
@@ -57,6 +54,8 @@ body{
 
 .nav-item>ul>li>a{
     color: #414141;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 
@@ -96,6 +95,14 @@ body{
     background-color: #FDCB4A;
     display: block;
     transition: 0.3s all ease-in-out;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.submenu{
+    text-decoration: none;
 }
 
 /* -------------------BURGER MENU STARTS------------------------- */
@@ -207,9 +214,7 @@ body{
 
 
 
-.nav-link:hover::after{
-    width: 100%;
-}
+
 
 @media (max-width:1050px) { 
     /* .nav-link{
@@ -229,9 +234,10 @@ body{
 
 /* <!--------------MOBILE NAVBAR ENDS --------------> */
 
-/*------------------- NHERO SECTION STARTS--------------- */
+/*------------------- HERO SECTION STARTS--------------- */
 
 .hero-container{
+    height: 100vh;
     display: flex;
     width: 100%;
     max-width: 1400px;
@@ -256,15 +262,15 @@ body{
 }
 
 .hero-title-one{
-    font-weight: 500;
-    font-size: clamp(10px, 12.5vw, 100px);
+    font-weight: 600;
+    font-size: clamp(10px, 12.5vw, 80px);
     line-height: 2rem;
     padding-bottom: .2em;
     color: #414141;
 }
 .hero-title-two{
-    font-weight: 500;
-    font-size: clamp(10px, 13.5vw, 110px);
+    font-weight: 600;
+    font-size: clamp(10px, 13.5vw, 100px);
     color: #FDCB4A;
     line-height: -2rem;
 }
@@ -310,6 +316,7 @@ body{
         align-items: center;
         justify-content: center;
         padding: 3em 2em;
+        height: 130vh;
     }
     .hero-image-container{
         width: 400px;
@@ -344,6 +351,95 @@ body{
 }
 
 /*------------------- HERO SECTION ENDS--------------- */
+
+
+
+/*------------------- HERO SECTION TWO STARTS--------------- */
+
+.second{
+    background-image: url(images/images/hero-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carsoul{
+    height: 100vh;
+}
+
+.carsoul-title-one{
+    font-weight: 600;
+    font-size: clamp(10px, 12.5vw, 70px);
+    line-height: 2rem;
+    padding-bottom: .2em;
+    color: #414141;
+}
+
+.carsoul-title-two{
+    font-weight: 500;
+    font-size: clamp(10px, 13.5vw, 70px);
+    color: #FDCB4A;
+    line-height: -2rem;
+}
+
+.carousel-btn{
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    border: #414141 1px solid;
+    padding: 0.7em 2.5em;
+    border-radius: 50px;
+    background-color: white;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.carsoul-btn-one{
+    color: white;
+    background-color: #000000;
+    margin-right: 30px;
+}
+
+@media (max-width:1178px){
+    .carsoul-title-one{
+        font-size: clamp(20px, 9vw, 90px);
+    }
+    .carsoul-title-two{
+        font-size: clamp(10px, 9vw, 90px);
+    }
+
+}
+
+
+/*------------------- HERO SECTION TWO ENDS--------------- */
+
+/* -----------------------.carousel-btn starts-------------------*/
+
+.carouselExampleControls{
+    height: 100vh;
+}
+
+#previous-btn{
+    height: 100vh;
+}
+
+#previous-btn > i{
+    color: rgb(9, 9,9);
+    margin-right: 6rem;
+}
+
+#next-btn > i{
+    color: rgb(9, 9, 9);
+    margin-left: 6rem;
+}
+/* -----------------------.carousel-btn ends-------------------*/
+
+
+
 
 /*------------------- SECTION-TWO STARTS--------------- */
 .section-two-container{

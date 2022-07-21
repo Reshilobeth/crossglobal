@@ -1,7 +1,4 @@
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
+
 
 .our-story-title-container{
     max-width: 1400px;
@@ -15,7 +12,7 @@
 
 .our-story-title-container>h1{
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(20px, 15vw, 100px);
     color: #414141;
 }

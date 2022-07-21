@@ -2,11 +2,6 @@
 /* ---------------HUMAN_TRAFFICING START---------- */
 
 
-@font-face {
-    font-family:'made tommy' ;
-    src: url(./made_tommy/MADE\ TOMMY\ USE.otf);
-}
-
 .human-trafficing-container{
     display: flex;
     flex-direction: column;
@@ -28,7 +23,7 @@
 }
 
 .human-trafficing-title{
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(10px, 9vw, 80px);
     color: #414141;
 }
